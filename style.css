@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Fredericka+the+Great&family=Staatliches&display=swap');
+
+body {
+    /* background-image: url("images/pexels-mengliu-di-3213577.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+    /* background-color: white; */
+    background-color: #e5e5e5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%234f0303' fill-opacity='0.14'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    /* line-height: 150px; */
+    padding: 41px 0 0 0;
+    margin: 0 auto;
+    font-size: 65px;
+}
+
+p, h2, li {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+p {
+    padding: 0 25px 0 25px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    font-size: 22px;
+    padding: 0 10px 0 0;
+}
+
+a {
+    background-color: white;
+    box-shadow: 0 5px 0 rgb(172, 162, 155);
+    color: rgb(78, 69, 62);
+    text-decoration: none;
+    padding: 3px 10px 3px 10px;
+    position: relative;
+}
+
+a:hover {
+    background-color: rgb(245, 241, 237);
+    /* color: rgb(255, 255, 255); */
+    /* border: 1px solid white; */
+}
+
+a:active {
+    box-shadow: none;
+    /* color: white; */
+    top: 5px;
+}
+
+.email {
+    box-shadow: 0 5px 0 rgb(184, 12, 12);
+}
+
+.linkedin {
+    box-shadow: 0 5px 0 rgb(214, 125, 9);
+}
+
+.artstation {
+    box-shadow: 0 5px 0 rgb(230, 190, 15);
+}
+
+.container {
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 850px; */
+}
+
+.title1 {
+    color: rgb(184, 12, 12);
+}
+
+.title2 {
+    color: rgb(214, 125, 9);
+}
+
+.title3 {
+    color: rgb(230, 190, 15);
+}
+
+.title1, .title2, .title3 {
+    text-shadow: 1px 1px rgb(78, 69, 62)
+}
+
+.info {
+    /* background-color: rgb(255, 244, 242); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 520px; 
+    width: 1020px; */
+}
+
+.aboutMe, .scroll-container {
+    /* border: 1px solid red; */
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin: 8px 5px 8px 5px;
+    box-shadow: 0 5px 10px rgb(172, 162, 155);
+}
+
+.aboutMe {
+    font-size: 37px;
+    text-align: left;
+    text-indent: 60px;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+section {
+    height: 100%;
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+}
+
+.attribute1 {
+    color: rgb(184, 12, 12);
+}
+
+.attribute2 {
+    color: rgb(214, 125, 9);
+}
+
+.attribute3 {
+    color: rgb(230, 190, 15);
+}
+
+.name, .contact {
+    /* border: 1px solid red; */
+    color: rgb(78, 69, 62);
+}
+
+.name {
+    /* border: 1px solid red; */
+    line-height: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact {
+    font-size: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-device-width: 500px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+}
