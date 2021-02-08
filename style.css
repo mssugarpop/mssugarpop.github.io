@@ -168,6 +168,12 @@ section {
 }
 
 @media screen and (max-device-width: 500px) {
+
+    .container {
+        margin: 0 auto;
+        width: 150vw;
+    }
+
     .info {
         display: flex;
         flex-direction: column;
