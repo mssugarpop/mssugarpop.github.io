@@ -39,7 +39,7 @@ ul {
     padding: 0;
 }
 
-a {
+a, .repository {
     background-color: white;
     box-shadow: 0 5px 0 rgb(172, 162, 155);
     color: rgb(78, 69, 62);
@@ -56,6 +56,54 @@ a:hover {
 a:active {
     box-shadow: none;
     top: 5px;
+}
+
+.preview, .preview2, .preview3 {
+    max-width: 90%;
+    height: auto;
+    margin: 10px;
+    box-shadow: 0 5px 10px rgb(172, 162, 155);
+}
+
+.preview2 {
+    max-height: 55%;
+    width: auto;
+}
+
+.preview3 {
+    max-width: 80%;
+}
+
+.repository, .deployed {
+    background-color: rgb(230, 190, 15);
+    box-shadow: none;
+    border: none;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.repository:hover, .deployed:hover {
+    background-color: rgb(255, 224, 83);
+}
+
+.techUsed {
+    margin: 0 auto;
+    padding: 0;
+}
+
+h4 {
+    color:rgb(214, 125, 9);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
 }
 
 .twitter {
@@ -180,7 +228,7 @@ a:active {
 }
 
 .aboutMe::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
 }
 
 .aboutMe::-webkit-scrollbar-thumb {
@@ -189,12 +237,13 @@ a:active {
 
 .scroll-container {
     display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
+    flex-direction: column;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
 .scroll-container::-webkit-scrollbar {
-    height: 5px;
+    width: 5px;
 }
 
 .scroll-container::-webkit-scrollbar-thumb {
