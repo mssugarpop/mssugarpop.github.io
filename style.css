@@ -1,38 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&family=Fredericka+the+Great&family=Inconsolata&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); */
 body {
     background-color: #e5e5e5;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%234f0303' fill-opacity='0.14'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%234f0303' fill-opacity='0.14'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E"); */
+    /* background-image: url('./images/Erika.png');
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: bottom left; */
     font-family: 'Fredericka the Great', cursive;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-align: center;
     position: relative;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+
 }
 
 h1 {
-    padding: 41px 0 0 0;
     margin: 0 auto;
-    font-size: 2.5em;
+    font-size: 4rem;
     font-weight: 400;
 }
 
 p, h2, li {
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 p {
-    font-size: 0.8em;
-    padding: 0 25px 0 25px;
+    font-size: 1.5rem;
+    padding: 15px 15px;
 }
 
 li {
     list-style: none;
     display: inline;
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 
 ul {
@@ -46,40 +50,35 @@ a, .repository {
     text-decoration: none;
     padding: 3px 10px 3px 10px;
     position: relative;
-    font-size: 1.5em;
+    font-size: 2rem;
 }
 
 a:hover {
     background-color: rgb(245, 241, 237);
 }
 
-a:active {
-    box-shadow: none;
-    top: 5px;
-}
-
 .preview, .preview2, .preview3 {
-    max-width: 90%;
+    max-width: 50%;
     height: auto;
     margin: 10px;
     box-shadow: 0 5px 10px rgb(172, 162, 155);
 }
 
 .preview2 {
-    max-height: 55%;
-    width: auto;
+    /* max-height: 50%; */
+    max-width: 50%;
 }
 
 .preview3 {
-    max-width: 80%;
+    max-width: 50%;
 }
 
 .repository, .deployed {
     background-color: rgb(230, 190, 15);
     box-shadow: none;
     border: none;
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 0.8em;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.2rem;
     font-weight: bold;
     transition: all 0.5s ease-in-out;
 }
@@ -89,20 +88,22 @@ a:active {
 }
 
 .techUsed {
+    font-size: 1rem;
     margin: 0 auto;
     padding: 0;
 }
 
 h4 {
+    font-family: 'Inconsolata', monospace;
     color:rgb(214, 125, 9);
     margin: 0 auto;
     margin-top: 20px;
 }
 
-section {
+.card {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -181,12 +182,26 @@ section {
 .container {
     margin: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
 }
 
+.name-contact {
+    margin: 0 20px 0 20px;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titles { 
+    margin: 0 auto;
+}
+
 .title1, .title2, .title3 {
-    font-size: 1.25em;
+    font-size: 2rem;
+    text-shadow: 1px 1px rgb(78, 69, 62);
 }
 
 .title1 {
@@ -201,59 +216,43 @@ section {
     color: rgb(230, 190, 15);
 }
 
-.title1, .title2, .title3 {
-    text-shadow: 1px 1px rgb(78, 69, 62)
-}
-
 .info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+    overflow-y: scroll;
 }
 
-.aboutMe, .scroll-container {
+.info::-webkit-scrollbar {
+    width: 5px;
+}
+
+.info::-webkit-scrollbar-thumb {
+    background-color:rgb(214, 125, 9);
+}
+
+.aboutMe, .projects {
     background-color: white;
-    height: 500px;
-    width: 500px;
+    /* height: 500px; */
+    width: 600px;
     margin: 8px 5px 8px 5px;
     box-shadow: 0 5px 10px rgb(172, 162, 155);
 }
 
 .aboutMe {
-    font-size: 37px;
+    /* background-image: url('./images/Erika.png');
+    background-repeat: no-repeat; */
+    font-size: 5rem;
     text-align: left;
     text-indent: 60px;
-    overflow: scroll;
-    overflow-x: hidden;
 }
 
-.aboutMe::-webkit-scrollbar {
-    width: 10px;
-}
-
-.aboutMe::-webkit-scrollbar-thumb {
-    background-color: rgb(214, 125, 9);
-}
-
-.scroll-container {
+.projects {
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-
-.scroll-container::-webkit-scrollbar {
-    width: 5px;
-}
-
-.scroll-container::-webkit-scrollbar-thumb {
-    background-color: rgb(230, 190, 15);
-}
-
-section {
-    height: 100%;
-    flex: 0 0 100%;
-    scroll-snap-align: center;
+    justify-content: space-evenly;
 }
 
 .attribute1, .attribute2, .attribute3 {
@@ -274,20 +273,21 @@ section {
 
 .name, .contact {
     color: rgb(78, 69, 62);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .name {
-    line-height: 15px;
     padding: 10px;
     margin: 10px;
 }
 
 .contact {
-    font-size: 15px;
     margin: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 /*TOOLTIPS*/
@@ -321,7 +321,7 @@ section {
     width: max-content;
     width: -moz-max-content;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 1rem;
     background-color: rgba(78, 69, 62, 0.9);
     background-image: linear-gradient(30deg, rgba(59, 72, 80, 0.44), rgba(59, 68, 75, 0.44), rgba(60, 82, 88, 0.44));
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
@@ -374,26 +374,40 @@ section {
     transform: translateX(-50%) scaleY(1);
 }
 
+
 @media screen and (max-device-width: 430px) {
-    .aboutMe .scroll-container {
-        width: 350px;
-        height: 350px;
-    }
-    .container {
-        position: relative;
-        margin: 0 auto;
-        width: 140vw;
-    }
-    .info {
-        display: flex;
+    .container { 
         flex-direction: column;
+        justify-content: center;
         align-items: center;
+    }
+
+    .name-contact {
+        width: 100vw;
+    }
+
+    .info {
+        height: unset;
+    }
+
+    li {
+        font-size: 2rem;
+    }
+
+    a {
+        font-size: 5rem;
     }
 }
 
-@media screen and (max-width: 780px) {
-    .info {
+@media screen and (max-width: 800px) {
+    .container {
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
+
+    .info {
+        height: unset;
+    }
+
 }

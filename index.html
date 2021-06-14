@@ -12,11 +12,40 @@
 
 <body>
     <script src="script.js"></script>
+
     <div class="container">
-        <div class="name">
-            <h1>Erika Sanchez</h1>
-            <p><span class="title1">web design</span> | <span class="title2">front-end developer</span> | <span
-                    class="title3">digital artist</span></p>
+        <div class="name-contact">
+            <div class="name">
+                <h1>Erika Sanchez</h1>
+                <p class="titles"><span class="title1">front-end web developer</span> <br> <span class="title2">character artist</span>
+                    <br><span class="title3">animator</span>
+                </p>
+                <div class="picture-me">
+                    <img src="./images/Erika.png">
+                </div>
+            </div>
+
+            <div class="contact">
+                <ul>
+                    <li><a class="twitter" href="https://twitter.com/mssugarpop_art" target="_blank"
+                            data-tooltip="@mssugarpop_art"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="linkedin" href="https://www.linkedin.com/in/erika-sanchez-59557513b/" target="_blank"
+                            data-tooltip="ewalker991"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a class="artstation" href="https://artstation.com/mssugarpop" target="_blank"
+                            data-tooltip="mssugarpop"><i class="fab fa-artstation"></i></a></li>
+                    <li><a class="github" href="https://github.com/ewalker991" target="_blank"
+                            data-tooltip="ewalker991"><i class="fab fa-github"></i></a></li>
+                    <li><a class="twitch" href="https://twitch.tv/mssugarpop" target="_blank"
+                            data-tooltip="mssugarpop"><i class="fab fa-twitch"></i></a></li>
+                    <li><a class="website" href="https://mssugarpop.carrd.co" target="_blank"
+                            data-tooltip="My art website!"><i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a class="email" href="mailto:erika.walker.business@gmail.com" target="_blank"
+                            data-tooltip="Shoot me an email!"><i class="fas fa-envelope"></i></a></li>
+                    <li><a class="resume"
+                            href="https://docs.google.com/document/d/1jTzK_VCKZ2hDlLqgVzBTn9W9v3VaEFLZPhpRTt39xNE/edit?usp=sharing"
+                            target="_blank" data-tooltip="Resumé"><i class="fas fa-file-pdf"></i></a></li>
+                </ul>
+            </div>
         </div>
 
         <div class="info">
@@ -24,63 +53,40 @@
                 <p>Hello! I'm a fresh <span class="attribute1">junior</span> in the world of software engineering and
                     front-end web development. With my background in art, I have a <span class="attribute2">big passion
                         for making things look pretty</span>, and an <span class="attribute3">attention to detail</span>
-                    that makes it impossible for me to leave things broken. I'm looking for my first jump onto a project
+                    that makes it impossible for me to leave things broken. I love working on projects
                     with fun and diverse people that I can grow and learn from in this big world of web development, and
-                    teach others about it down the line.</p>
-                <p>.erika { </p>
-                <p><span class="attribute1">team-worker</span>: 100%;</p>
-                <p><span class="attribute2">coding-level</span>: relative;</p>
-                <p><span class="attribute3">artistic-sense</span>: absolute;</p>
-                <p>}</p>
+                    I want to teach others about it down the line.</p>
             </div>
 
-            <div class="scroll-container">
-                <section>
+            <div class="projects">
+
+                <div class="card">
                     <h4>MangaMeat</h4>
                     <p class="techUsed">REACTJS / CSS / MongoDB</p>
-                    <img class="preview" onClick="openImage()" src="./images/MangaMeatpreview.png">
-                    <a class="repository" href="https://github.com/ewalker991/Manga-Meat-Front" target="_blank">view on github</a> 
+                    <img class="preview" src="./images/MangaMeatpreview.png">
+                    <a class="repository" href="https://github.com/ewalker991/Manga-Meat-Front" target="_blank">view on github</a>
                     <a class="deployed" href="http://mangameat.surge.sh/" target="_blank">deployed site</a>
-                </section>
-                <section>
+                </div>
+                
+                <div class="card">
                     <h4>FFXIV Trivia</h4>
                     <p class="techUsed">JavaScript / HTML / CSS / DOM Manipulation</p>
-                    <img class="preview2" onClick="openImage()" src="./images/FFXIVTriviapreview.png">
-                    <a class="repository" href="https://github.com/ewalker991/frontend-game" target="_blank">view on github</a> 
+                    <img class="preview2" src="./images/FFXIVTriviapreview.png">
+                    <a class="repository" href="https://github.com/ewalker991/frontend-game" target="_blank">view on github</a>
                     <a class="deployed" href="https://ewalker991.github.io/frontend-game/" target="_blank">deployed site</a>
-                </section>
-                <section>
+                </div>
+
+                <div class="card">
                     <h4>Vedic Words API</h4>
                     <p class="techUsed">JavaScript / Express / Mongoose</p>
-                    <img class="preview3" onClick="openImage()" src="./images/VedicAPIpreview.png">
-                    <a class="repository" href="https://github.com/ewalker991/project6" target="_blank">view on github</a> 
+                    <img class="preview3" src="./images/VedicAPIpreview.png">
+                    <a class="repository" href="https://github.com/ewalker991/project6" target="_blank">view on github</a>
                     <a class="deployed" href="https://sei21-es-project6.herokuapp.com/" target="_blank">deployed site</a>
-                </section>
+                </div>
+                <p>END</p>
             </div>
         </div>
 
-        <div class="contact">
-            <ul>
-                
-                <li><a class="twitter" href="https://twitter.com/mssugarpop_art" target="_blank" data-tooltip="@mssugarpop_art"><i
-                            class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a class="linkedin" href="https://www.linkedin.com/in/erika-sanchez-59557513b/" target="_blank" data-tooltip="ewalker991"><i
-                            class="fab fa-linkedin-in"></i></a></li>
-                <li><a class="artstation" href="https://artstation.com/mssugarpop" target="_blank" data-tooltip="mssugarpop"><i
-                            class="fab fa-artstation"></i></a></li>
-                <li><a class="github" href="https://github.com/ewalker991" target="_blank" data-tooltip="ewalker991"><i
-                            class="fab fa-github"></i></a></li>
-                <li><a class="twitch" href="https://twitch.tv/mssugarpop" target="_blank" data-tooltip="mssugarpop"><i
-                            class="fab fa-twitch"></i></a></li>
-                <li><a class="website" href="https://mssugarpop.carrd.co" target="_blank" data-tooltip="My art website!"><i
-                            class="fas fa-external-link-alt"></i></a></li>
-                <li><a class="email" href="mailto:erika.walker.business@gmail.com" target="_blank" data-tooltip="Shoot me an email!"><i
-                            class="fas fa-envelope"></i></a></li>
-                <li><a class="resume"
-                        href="https://docs.google.com/document/d/1jTzK_VCKZ2hDlLqgVzBTn9W9v3VaEFLZPhpRTt39xNE/edit?usp=sharing"
-                        target="_blank" data-tooltip="Resumé"><i class="fas fa-file-pdf"></i></a></li>
-            </ul>
-        </div>
     </div>
 </body>
 
